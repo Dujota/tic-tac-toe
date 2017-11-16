@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // resets the game by clearing the grid and gameArray to "default"
   start.addEventListener('click', (e) => {
-    console.log('click');
     for (let cell of cells) {
         cell.innerText = " ";
       }
