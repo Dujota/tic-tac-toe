@@ -1,0 +1,68 @@
+@media screen and (min-device-width:698px) {
+  div#showgrid {
+    width: 698px;
+    margin: auto;
+    padding-bottom: 30px;
+  }
+}
+
+div.cell {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.row {
+  width: 100%;
+  margin: auto;
+
+}
+
+
+.start-end-game{
+  width: 270px;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+
+button{
+  width: 150px;
+  border-radius: 10px;
+  color: blue;
+  background-color: lightgrey;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.start-end-game{
+  width: 310px;
+  margin: 0 auto;
+  padding-bottom: 5px;
+}
+
+
+html{
+  padding-bottom: 30px;
+}
+
+@media (min-device-width: 698px) {
+  .cell {
+    width: 230px;
+    height: 230px;
+    display: inline;
+    float: left;
+    font-size: 180px;
+    text-align: center;
+  }
+}
+
+.cell:hover{
+  background-color: #ebebeb;
+}
+
+.cell {
+  width: 230px;
+  height: 230px;
+  margin: auto;
+}
